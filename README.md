@@ -21,13 +21,13 @@ where u want to profile.
 PROFILER_GET(task_name).count
 ```
 
-2. get total time this `task_name` has taken.
+2. get total time this `task_name` has taken (in microsecond).
 
 ```c++
 PROFILER_GET(task_name).time_pass
 ```
 
-3. get time the last called to this task taken
+3. get time the last called to this task has taken (in microsecond).
 
 ```c++
 PROFILER_GET(task_name).last_time_pass
